@@ -1,0 +1,17 @@
+if('POST' == $_SERVER['REQUEST_METHOD']){
+    $output = "Hello". $_POST['name'];
+    return $output;
+}
+else {
+    $output = `
+    <h3>Enter name</h3>
+    <form action="$_SERVER[PHP_SELF]" method="POST">
+        <input type="text" name="name">
+        <input type="submit" value="submit">
+    </form>
+    `;
+    echo $output;
+}
+
+<?php print $_POST['name'] ?? ''?> нулеобъединяющая
+операция ??. Если в пост чтото есть печатать если нет то печатать пустую строку
