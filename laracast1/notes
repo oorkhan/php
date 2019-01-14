@@ -1,1 +1,11 @@
 можно использовать переменные в "" но не в ''
+array_filte($array, function($array){
+    code to filter
+})
+
+parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) НУЖНО ЧТОБ ПОСЫЛАТЬ ДАННЫЕ С GET
+pdo insert from form
+https://stackoverflow.com/questions/28639506/entering-data-from-form-into-database-pdo
+
+composer  autuload all classes classmap
+recreate autoload file composer dump-autoload
