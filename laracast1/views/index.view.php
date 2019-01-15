@@ -1,6 +1,6 @@
 <?php require 'partials/head.view.php'; ?>
-
-    <div>
+<h1>Homepage</h1>
+    <!-- <div>
         <?php foreach ($tasks as $task) : ?>
         <li>
             <?php if($task->completed =="1") :?>
@@ -16,19 +16,7 @@
             <button type="submit">Submit</button>
         </form>
     </div>
-        <div>
-        <h2>All Users:</h2>
-        <?php foreach ($users as $user) : ?>
-        <li>
-            <?= $user->username; ?>
-        </li>
-        <?php endforeach; ?>
-         <form action="/names" method="POST">
-    <h3>Add username</h3>
-        <input type="text" name="username">
-        <button type="submit">Submit</button>
-    </form>
-    </div>
+ -->
     
     
     

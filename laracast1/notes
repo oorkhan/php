@@ -9,3 +9,6 @@ https://stackoverflow.com/questions/28639506/entering-data-from-form-into-databa
 
 composer  autuload all classes classmap
 recreate autoload file composer dump-autoload
+
+
+ return $this->callAction(...explode('@', $this->routes[$requestType][$uri])); splat operator ...
