@@ -15,3 +15,6 @@ else {
 
 <?php print $_POST['name'] ?? ''?> нулеобъединяющая
 операция ??. Если в пост чтото есть печатать если нет то печатать пустую строку
+
+filter_input(INPUT_POST, 'age', FILTER_VALIDATE_INT); убедится что выходные данные инт
+filter_input(INPUT_POST, 'price', FILTER_VALIDATE_FLOAT);
